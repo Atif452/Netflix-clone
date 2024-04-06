@@ -1,0 +1,28 @@
+@media only screen and (max-width: 600px){
+    .section-2, .section-3, .section-4,.section-5,.section-6{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .tv,.mobile, .cartoon{
+        width: 300px;
+    }
+    .tv video{
+        width: 250px;
+        /* background-repeat: no-repeat; */
+    }
+    
+    .tv img{
+        width: 300px;
+
+    }
+
+    
+    .mobile img{
+        width: 300px;
+    }
+
+    .cartoon img{
+        width: 300px;
+    }
+}
